@@ -1,0 +1,20 @@
+# GUI displays social links in a GUI, TEXT displays social links via chat
+display_mode: "GUI" # Options: GUI, TEXT
+
+server_name: "CiviCraft" # Your server name
+
+# Config for text display
+text:
+  links:
+    - platform: "GitHub"
+      username: "Username"
+    - platform: "Instagram"
+      username: "Username"
+
+# Config for GUI display
+gui:
+  links:
+    - platform: "GitHub"
+      username: "Username"
+    - platform: "Instagram"
+      username: "Username"
