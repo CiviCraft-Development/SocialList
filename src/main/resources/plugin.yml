@@ -2,3 +2,7 @@ name: SocialList
 version: '1.0'
 main: net.civicraft.socialList.SocialList
 api-version: '1.21'
+commands:
+  socials:
+    aliases: [sociallist, social]
+    permission: sociallist.socials
