@@ -3,18 +3,76 @@ display_mode: "GUI" # Options: GUI, TEXT
 
 server_name: "CiviCraft" # Your server name
 
-# Config for text display
-text:
-  links:
-    - platform: "GitHub"
-      username: "Username"
-    - platform: "Instagram"
-      username: "Username"
-
-# Config for GUI display
-gui:
-  links:
-    - platform: "GitHub"
-      username: "Username"
-    - platform: "Instagram"
-      username: "Username"
+# Config for socials. Delete the platforms you don't need and feel free to add ones that aren't there!
+# Format
+#  platform_name: # The name of the platform
+#    link: "" # The link to YOUR profile
+#    username: "" # Your profile's username
+#    color: "#555555" # The color for the head
+#    head_name: "" # The username of the head to represent the social media
+platforms:
+  tiktok:
+    link: ""
+    username: ""
+    color: "#00f2ea"
+    head_name: "pijitadurita"
+  twitch:
+    link: ""
+    username: ""
+    color: "#6441a5"
+    head_name: "Majorach"
+  discord:
+    link: ""
+    username: ""
+    color: "#7289da"
+    head_name: ""
+  tumblr:
+    link: ""
+    username: ""
+    color: "#36465D"
+    head_name: ""
+  mastodon:
+    link: ""
+    username: ""
+    color: "#6364FF"
+    head_name: ""
+  reddit:
+    link: ""
+    username: ""
+    color: "#FF4500"
+    head_name: ""
+  bluesky:
+    link: ""
+    username: ""
+    color: "#1081F6"
+    head_name: ""
+  pinterest:
+    link: ""
+    username: ""
+    color: "#DF0022"
+    head_name: ""
+  linkedin:
+    link: ""
+    username: ""
+    color: "#0077B5"
+    head_name: ""
+  snapchat:
+    link: ""
+    username: ""
+    color: "#fffc00"
+    head_name: ""
+  instagram:
+    link: ""
+    username: ""
+    color: "#c13584"
+    head_name: ""
+  youtube:
+    link: ""
+    username: ""
+    color: "#CD201F"
+    head_name: ""
+  facebook:
+    link: ""
+    username: ""
+    color: "#1877F2"
+    head_name: ""
