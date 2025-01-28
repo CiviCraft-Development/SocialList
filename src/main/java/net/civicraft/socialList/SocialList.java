@@ -3,6 +3,8 @@ package net.civicraft.socialList;
 import net.civicraft.socialList.command.SocialsCMD;
 import org.bukkit.plugin.java.JavaPlugin;
 
+import java.util.Objects;
+
 public final class SocialList extends JavaPlugin {
     public static SocialList instance;
 
@@ -10,7 +12,7 @@ public final class SocialList extends JavaPlugin {
     public void onEnable() {
         instance = this;
         saveDefaultConfig();
-        getCommand("socials").setExecutor(new SocialsCMD());
+        Objects.requireNonNull(getCommand("socials")).setExecutor(new SocialsCMD());
     }
 
     public static SocialList getInstance() {
@@ -20,6 +22,5 @@ public final class SocialList extends JavaPlugin {
     @Override
     public void onDisable() {
         instance = null;
-        // Plugin shutdown logic
     }
 }
