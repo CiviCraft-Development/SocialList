@@ -25,17 +25,17 @@ platforms:
     link: ""
     username: ""
     color: "#7289da"
-    head_name: ""
-  tumblr:
+    head_name: "Discoord"
+  instagram:
     link: ""
     username: ""
-    color: "#36465D"
-    head_name: ""
-  mastodon:
+    color: "#c13584"
+    head_name: "colin_woohoo"
+  youtube:
     link: ""
     username: ""
-    color: "#6364FF"
-    head_name: ""
+    color: "#CD201F"
+    head_name: "youtubehub"
   reddit:
     link: ""
     username: ""
@@ -60,19 +60,19 @@ platforms:
     link: ""
     username: ""
     color: "#fffc00"
-    head_name: ""
-  instagram:
-    link: ""
-    username: ""
-    color: "#c13584"
-    head_name: ""
-  youtube:
-    link: ""
-    username: ""
-    color: "#CD201F"
-    head_name: ""
+    head_name: "SnapchatOfficial"
   facebook:
     link: ""
     username: ""
     color: "#1877F2"
+    head_name: ""
+  tumblr:
+    link: ""
+    username: ""
+    color: "#36465D"
+    head_name: ""
+  mastodon:
+    link: ""
+    username: ""
+    color: "#6364FF"
     head_name: ""

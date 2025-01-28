@@ -8,6 +8,7 @@ import java.util.Objects;
 public final class SocialList extends JavaPlugin {
     public static SocialList instance;
 
+    // TODO: Either load custom textures for heads or use a HeadAPI for socials GUI (or have both options)
     @Override
     public void onEnable() {
         instance = this;
